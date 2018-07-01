@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="4dp"
+                android:layout_margin="8dp"
+                app:cardBackgroundColor="@color/cardview_light_background"
+                app:cardCornerRadius="10dp"
+                android:background="@color/colorAccent"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:animateLayoutChanges="false"
+                    android:orientation="vertical"
+                    android:theme="@style/AppTheme">
+
+                    <TextView
+                        android:layout_marginTop="8dp"
+                        android:textColor="@color/colorAccent"
+                        android:layout_marginLeft="8dp"
+                        android:id="@+id/info_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Belgiums match winner against England,Adan Januzaj, plays for which team?" />
+                    <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radio_group_1"
+                    android:checkedButton="@+id/radio_button_man_u" >
+
+                    <RadioButton
+                        android:id="@+id/radio_button_man_u"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Manchester United" />
+
+                    <RadioButton
+                        android:id="@+id/radio_button_sunderland"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="SunderLand" />
+
+                    <RadioButton
+                        android:id="@+id/radio_button_sociedad"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Real Sociedad" />
+
+                    <RadioButton
+                        android:id="@+id/radio_button_borussia_dortmund"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Borussia Dortmund" />
+                    </RadioGroup>
+                </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="4dp"
+        android:layout_margin="8dp"
+        app:cardBackgroundColor="@color/cardview_light_background"
+        app:cardCornerRadius="10dp"
+        android:background="@color/colorAccent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/info_text_2"
+        android:textColor="@color/colorAccent"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="River Plate is a club in which country?"/>
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radio_group_2"
+            android:checkedButton="@+id/radio_button_chile" >
+    <RadioButton
+        android:id="@+id/radio_button_chile"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="chile"
+        />
+    <RadioButton
+        android:id="@+id/radio_button_columbia"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Columbia"
+        />
+    <RadioButton
+        android:id="@+id/radio_button_argentina"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Argentina"
+        />
+    <RadioButton
+        android:id="@+id/radio_button_brazil"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Brazil"
+        />
+        </RadioGroup>
+    </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="4dp"
+        android:layout_margin="8dp"
+        app:cardBackgroundColor="@color/cardview_light_background"
+        app:cardCornerRadius="10dp"
+        android:background="@color/colorAccent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/info_text_3"
+        android:textColor="@color/colorAccent"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Spot the odd one out(hint:world cup 2018)"/>
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radio_group_3"
+            android:checkedButton="@+id/radio_button_belgium" >
+    <RadioButton
+        android:id="@+id/radio_button_belgium"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Belgium"
+        />
+    <RadioButton
+        android:id="@+id/radio_button_odd_brazil"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Brazil"
+        />
+    <RadioButton
+        android:id="@+id/radio_button_odd_uruguay"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Uruguay"
+        />
+    <RadioButton
+        android:id="@+id/radio_button_odd_croatia"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Croatia"
+        />
+        </RadioGroup>
+    </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="4dp"
+        android:layout_margin="8dp"
+        app:cardBackgroundColor="@color/cardview_light_background"
+        app:cardCornerRadius="10dp"
+        android:background="@color/colorAccent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/info_text_4"
+        android:textColor="@color/colorAccent"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The home stadiums of which of these clubs isn't named after a former great player?"/>
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radio_group_4"
+            android:checkedButton="@+id/radio_button_real_madrid" >
+    <RadioButton
+        android:id="@+id/radio_button_real_madrid"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Real Madrid"
+        />
+    <RadioButton
+        android:id="@+id/radio_button_ac_milan"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="AC Milan"
+        />
+    <RadioButton
+        android:id="@+id/radio_button_ajax"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Ajax"
+        />
+    <RadioButton
+        android:id="@+id/radio_button_benfica"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Benfica"
+        />
+        </RadioGroup>
+    </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="4dp"
+        android:layout_margin="8dp"
+        app:cardBackgroundColor="@color/cardview_light_background"
+        app:cardCornerRadius="10dp"
+        android:background="@color/colorAccent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:textColor="@color/colorAccent"
+        android:id="@+id/info_text_5"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Spot the odd one out(hint:world cup 2018)"/>
+    <CheckBox
+        android:id="@+id/check_box_spain"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Spain"
+        />
+    <CheckBox
+        android:id="@+id/check_box_south_africa"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="South Africa"
+        />
+    <CheckBox
+        android:id="@+id/check_box_germany"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Germany"
+        />
+    <CheckBox
+        android:id="@+id/check_box_netherlands"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Netherlands"
+        />
+    </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+<Button
+    android:onClick="submit"
+    android:id="@+id/submit_button"
+    android:text="submit"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+   </LinearLayout>
+
+</ScrollView>
